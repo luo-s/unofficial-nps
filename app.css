@@ -1,0 +1,23 @@
+.nationalPark {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+#id {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.map {
+  height: 180px;
+}
