@@ -213,6 +213,8 @@ function updateParkDetail(data) {
       attribution:
         '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
+    var marker = L.marker([latitude, longitude]).addTo(map);
+    marker.bindPopup(`<b>${name}</b>`).openPopup();
 
     // add videos
     if (parkCode === "yose") {
