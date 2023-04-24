@@ -179,6 +179,8 @@ function updateParkDetail(data) {
           </li>
         </ul>
       </div>
+      <div id="map">
+      </div>
     `;
     $("#results").append($(`${html}`));
 
@@ -203,6 +205,14 @@ function updateParkDetail(data) {
     $(`#${parkCode}`).on("click", function (event) {
       getIt(event.target.id);
     });
+
+    // add map
+    let map = L.map("map").setView([latitude, longitude], 13);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution:
+        '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
 
     // add videos
     if (parkCode === "yose") {
