@@ -1,7 +1,5 @@
 # unofficial-nps
 
-----
-
 <img width="1276" alt="home_page" src="https://github.com/luo-s/unofficial-nps/assets/40323042/66324a3f-e9f7-46d7-8136-b3bc3204be13">
 
 + Held on GitHub Pages: https://luo-s.github.io/unofficial-nps
