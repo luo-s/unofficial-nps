@@ -1,4 +1,4 @@
-# unofficial-nps
+# The Unofficial NPS Website
 
 <img width="1276" alt="home_page" src="https://github.com/luo-s/unofficial-nps/assets/40323042/66324a3f-e9f7-46d7-8136-b3bc3204be13">
 
