@@ -10,7 +10,7 @@
   - Implemented interactive map with [leaflet](https://leafletjs.com/) library.
   - Designed graphs with [chart.js](https://www.chartjs.org/) library.
 
- + Fun Facts dropdown: directs the user to another page with interesting graphs.
+ + Fun Facts dropdown: directs the user to the fun facts.
  + Explore button: generates 3 random National Parks with basic information; clicking the one you are interested in will give all the detailed information of that park, including _directions_, _things to do_, _places to go_, _current alert_, and so on.
  + Search bar and button: returns the national park you searched with detailed information.
 
